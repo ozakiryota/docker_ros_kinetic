@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
 	vim \
 	wget \
 	unzip \
-	git
+	git \
+	cmake-curses-gui
 ########## ROS setup ##########
 RUN mkdir -p /home/ros_catkin_ws/src && \
 	cd /home/ros_catkin_ws/src && \
