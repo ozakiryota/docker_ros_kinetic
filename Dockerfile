@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
 	wget \
 	unzip \
 	git \
+	build-essential \
 	cmake-curses-gui
 ########## ROS setup ##########
 RUN mkdir -p /home/ros_catkin_ws/src && \
